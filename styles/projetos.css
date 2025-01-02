@@ -1,0 +1,57 @@
+#projects{
+    padding: 72px 120px 144px;
+    background-color: var(--base-gray200);
+    .header-project{
+        text-align: center;
+        span{
+            color: var(--main-red);
+            font-family: Inconsolata;
+            font-size: 20px;
+            line-height: 120%;
+        }
+        h2{
+            color: var(--base-gray600);
+            font-family: Asap;
+            font-size: 24px;
+            font-weight: 700;
+            margin: 8px 0 56px;
+            line-height: 120%;
+        }
+    }
+    .grid-cards{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-content: center;
+        gap: 24px;
+    
+        .card{
+            display: flex;
+            flex-direction: column;
+            background-color: var(--base-gray300);
+            border-radius: 12px;
+            gap: 20px;
+            padding: 12px;
+            
+            img{
+                background-repeat: no-repeat;
+                align-self: center;
+                object-fit: cover;
+                border-radius: 8px;
+            }
+            figcaption{
+                color: var(--base-gray600);
+                font-family: Asap;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 120%;
+                margin: 24px 0 8px;
+            }
+            p{
+                color: var(--base-gray500);
+                font-family: "Maven Pro";
+                font-size: 14px;
+                line-height: 140%;
+            }
+        }
+    }
+}
