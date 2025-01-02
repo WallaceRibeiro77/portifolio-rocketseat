@@ -1,0 +1,46 @@
+/*utility first*/
+
+.grid{
+    display: grid;
+}
+.flex{
+    display: flex;
+}
+.column{
+    flex-direction: column;
+}
+.flex-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+.container{
+    min-width: 1040px;
+}
+
+/*font-size*/
+
+.title-lg{
+    font: var(--title-lg);
+}
+
+.title-md{
+    font: var(--title-md);
+}
+
+.title-sm{
+    font: var(--title-sm);
+}
+
+.subtitle{
+    font:var(--subtitle);
+}
+
+.text-md{
+    font: var(--text-md);
+}
+
+.text-sm{
+    font: var(--text-sm);
+}
