@@ -20,22 +20,24 @@
     }
     .grid-cards{
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        align-content: center;
-        gap: 24px;
-    
+        justify-content: center;
+        gap: 20px;
+        grid-template-columns: repeat(3, 330px);
+
         .card{
             display: flex;
             flex-direction: column;
             background-color: var(--base-gray300);
             border-radius: 12px;
+            width: 330px;
             gap: 20px;
             padding: 12px;
             
             img{
                 background-repeat: no-repeat;
                 align-self: center;
-                object-fit: cover;
+                width: 300px;
+                background-size: cover;
                 border-radius: 8px;
             }
             figcaption{

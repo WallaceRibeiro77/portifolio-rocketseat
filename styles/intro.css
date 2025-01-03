@@ -10,7 +10,6 @@
 header{
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
     align-items: center;
     gap: 56px;
 
@@ -44,7 +43,6 @@ header{
                 color: var(--main-red);
                 font-family: Inconsolata;
                 font-size: 20px;
-                font-weight: 400;
                 line-height: 120%;
             }
         }
@@ -55,14 +53,13 @@ header{
             font-size: 56px;
             font-weight: 700;
             line-height: 120%;
-            /* margin-bottom: 20px; */
         }
 
         span{
             color: var(--base-gray400);
             font-family: "Maven Pro";
             font-size: 14px;
-            line-height: 140%; /* 19.6px */
+            line-height: 140%;
         }
 
     }
